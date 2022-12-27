@@ -1,0 +1,511 @@
+@font-face {
+  font-family: 'YRThree';
+  src: url(/assets/fonts/YRThreeLight.woff2) format('woff2'),
+  url(/assets/fonts/YRThreeLight.woff) format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'YRThree';
+  src: url(/assets/fonts/YRThreeBold.woff2) format('woff2'),
+  url(/assets/fonts/YRThreeBold.woff) format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'YRThree';
+  src: url(/assets/fonts/YRThreeBoldItalic.woff2) format('woff2'),
+  url(/assets/fonts/YRThreeBoldItalic.woff) format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'YRThree';
+  src: url(/assets/fonts/YRThreeBlackItalic.woff2) format('woff2'),
+  url(/assets/fonts/YRThreeBlackItalic.woff) format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'YRThree';
+  src: url(/assets/fonts/YRThreeBlack.woff2) format('woff2'),
+  url(/assets/fonts/YRThreeBlack.woff) format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'YRThree';
+  src: url(/assets/fonts/YRThreeMediumItalic.woff2) format('woff2'),
+  url(/assets/fonts/YRThreeMediumItalic.woff) format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'YRThree';
+  src: url(/assets/fonts/YRThreeMedium.woff2) format('woff2'),
+  url(/assets/fonts/YRThreeMedium.woff) format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'YRThree';
+  src: url(/assets/fonts/YRThreeLightItalic.woff2) format('woff2'),
+  url(/assets/fonts/YRThreeLightItalic.woff) format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Snowflake Sans BETA Book';
+  src: url(/assets/fonts/SnowflakeSansBETA-Bold.woff2) format('woff2'),
+  url(/assets/fonts/SnowflakeSansBETA-Bold.woff) format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Snowflake Inline BETA';
+  src: url(/assets/fonts/SnowflakeInlineBETA-Black.woff2) format('woff2'),
+  url(/assets/fonts/SnowflakeInlineBETA-Black.woff) format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Snowflake Sans BETA';
+  src: url(/assets/fonts/SnowflakeSansBETA-Black.woff2) format('woff2'),
+  url(/assets/fonts/SnowflakeSansBETA-Black.woff) format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Snowflake Sans BETA Book';
+  src: url(/assets/fonts/SnowflakeSansBETA-Bold.woff2) format('woff2'),
+  url(/assets/fonts/SnowflakeSansBETA-Bold.woff) format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Snowflake Sans BETA Book';
+  src: url(/assets/fonts/SnowflakeSansBETA-Bold.woff2) format('woff2'),
+  url(/assets/fonts/SnowflakeSansBETA-Bold.woff) format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Snowflake Sans BETA Book';
+  src: url(/assets/fonts/SnowflakeSansBETA-Book.woff2) format('woff2'),
+  url(/assets/fonts/SnowflakeSansBETA-Book.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Snowflake Inline BETA';
+  src: url(/assets/fonts/SnowflakeInlineBETA-Black.woff2) format('woff2'),
+  url(/assets/fonts/SnowflakeInlineBETA-Black.woff) format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Snowflake Inline BETA';
+  src: url(/assets/fonts/SnowflakeInlineBETA-Black.woff2) format('woff2'),
+  url(/assets/fonts/SnowflakeInlineBETA-Black.woff) format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Snowflake Sans BETA Book';
+  src: url(/assets/fonts/SnowflakeSansBETA-Book.woff2) format('woff2'),
+  url(/assets/fonts/SnowflakeSansBETA-Book.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Snowflake Sans BETA Book';
+  src: url(/assets/fonts/SnowflakeSansBETA-Book.woff2) format('woff2'),
+  url(/assets/fonts/SnowflakeSansBETA-Book.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Snowflake Sans BETA';
+  src: url(/assets/fonts/SnowflakeSansBETA-Light.woff2) format('woff2'),
+  url(/assets/fonts/SnowflakeSansBETA-Light.woff) format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Snowflake Sans BETA';
+  src: url(/assets/fonts/SnowflakeSansBETA-Black.woff2) format('woff2'),
+  url(/assets/fonts/SnowflakeSansBETA-Black.woff) format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Snowflake Sans BETA';
+  src: url(/assets/fonts/SnowflakeSansBETA-Black.woff2) format('woff2'),
+  url(/assets/fonts/SnowflakeSansBETA-Black.woff) format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Snowflake Sans BETA';
+  src: url(/assets/fonts/SnowflakeSansBETA-Medium.woff2) format('woff2'),
+  url(/assets/fonts/SnowflakeSansBETA-Medium.woff) format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Snowflake Sans BETA';
+  src: url(/assets/fonts/SnowflakeSansBETA-Light.woff2) format('woff2'),
+  url(/assets/fonts/SnowflakeSansBETA-Light.woff) format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Snowflake Sans BETA';
+  src: url(/assets/fonts/SnowflakeSansBETA-Medium.woff2) format('woff2'),
+  url(/assets/fonts/SnowflakeSansBETA-Medium.woff) format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Snowflake Sans BETA';
+  src: url(/assets/fonts/SnowflakeSansBETA-Light.woff2) format('woff2'),
+  url(/assets/fonts/SnowflakeSansBETA-Light.woff) format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Snowflake Sans BETA';
+  src: url(/assets/fonts/SnowflakeSansBETA-Medium.woff2) format('woff2'),
+  url(/assets/fonts/SnowflakeSansBETA-Medium.woff) format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
+h1, h2, h3, h4, h5, h6{
+  margin: 0.2em 0 0.3em;
+}
+
+h1{
+  font-family: var(--typography-h1-font-family);
+  font-weight: var(--typography-h1-font-weight);
+  line-height: var(--typography-h1-line-height);
+  font-size: var(--typography-h1-font-size);
+  letter-spacing: var(--typography-h1-letter-spacing);
+}
+h2{
+  font-family: var(--typography-h2-font-family);
+  font-weight: var(--typography-h2-font-weight);
+  line-height: var(--typography-h2-line-height);
+  font-size: var(--typography-h2-font-size);
+  letter-spacing: var(--typography-h2-letter-spacing);
+}
+h3{
+  font-family: var(--typography-h3-font-family);
+  font-weight: var(--typography-h3-font-weight);
+  line-height: var(--typography-h3-line-height);
+  font-size: var(--typography-h3-font-size);
+  letter-spacing: var(--typography-h3-letter-spacing);
+}
+h4{
+  font-family: var(--typography-h4-font-family);
+  font-weight: var(--typography-h4-font-weight);
+  line-height: var(--typography-h4-line-height);
+  font-size: var(--typography-h4-font-size);
+  letter-spacing: var(--typography-h4-letter-spacing);
+}
+h5{
+  font-family: var(--typography-h5-font-family);
+  font-weight: var(--typography-h5-font-weight);
+  line-height: var(--typography-h5-line-height);
+  font-size: var(--typography-h5-font-size);
+  letter-spacing: var(--typography-h5-letter-spacing);
+}
+h6{
+  font-family: var(--typography-h6-font-family);
+  font-weight: var(--typography-h6-font-weight);
+  line-height: var(--typography-h6-line-height);
+  font-size: var(--typography-h6-font-size);
+  letter-spacing: var(--typography-h6-letter-spacing);
+}
+.subtitle{
+  font-family: var(--typography-subtitle-regular-font-family);
+  font-weight: var(--typography-subtitle-regular-font-weight);
+  line-height: var(--typography-subtitle-regular-line-height);
+  font-size: var(--typography-subtitle-regular-font-size);
+  letter-spacing: var(--typography-subtitle-regular-letter-spacing);
+}
+.subtitle-black,
+.subtitle-bold{
+  font-family: var(--typography-subtitle-bold-font-family);
+  font-weight: var(--typography-subtitle-bold-font-weight);
+  line-height: var(--typography-subtitle-bold-line-height);
+  font-size: var(--typography-subtitle-bold-font-size);
+  letter-spacing: var(--typography-subtitle-bold-letter-spacing);
+}
+b, strong{
+  font-weight: var(--font-weights-700)
+}
+
+.font-family-heading{
+  font-family: var(--font-families-heading);
+}
+.font-family-body{
+  font-family: var(--font-families-body);
+}
+.line-height-heading{
+  line-height: var(--line-heights-heading);
+}
+.line-height-body{
+  line-height: var(--line-heights-body);
+}
+
+p{
+  font-family: var(--typography-paragraph-1-regular-font-family);
+  font-weight: var(--typography-paragraph-1-regular-font-size);
+  line-height: var(--typography-paragraph-1-regular-line-height);
+  font-size: var(--typography-paragraph-1-regular-font-size);
+  letter-spacing: var(--typography-paragraph-1-regular-letter-spacing);
+}
+.font-size-6xl{
+  font-size: var(--font-sizes-6xl);
+}
+.font-size-5xl{
+  font-size: var(--font-sizes-5xl);
+}
+.font-size-4xl{
+  font-size: var(--font-sizes-4xl);
+}
+.font-size-3xl{
+  font-size: var(--font-sizes-3xl);
+}
+.font-size-2xl{
+  font-size: var(--font-sizes-2xl);
+}
+.font-size-xl{
+  font-size: var(--font-sizes-xl);
+}
+.font-size-large{
+  font-size: var(--font-sizes-large);
+}
+.font-size-medium{
+  font-size: var(--font-sizes-medium);
+}
+.font-size-small{
+  font-size: var(--font-sizes-small);
+}
+.font-size-xs{
+  font-size: var(--font-sizes-xs);
+}
+.font-size-default,
+.base-font{
+  font-size: var(--font-sizes-default);
+}
+.caption{
+  font-family: var(--typography-caption-regular-font-family);
+  font-weight: var(--typography-caption-regular-font-weight);
+  line-height: var(--typography-caption-regular-line-height);
+  font-size: var(--typography-caption-regular-font-size);
+  letter-spacing: var(--typography-caption-regular-letter-spacing);
+}
+
+.letter-spacing{
+  letter-spacing: var(--letter-spacing-default);
+}
+.letter-spacing-increased{
+  letter-spacing: var(--letter-spacing-increased);
+}
+.letter-spacing-decreased{
+  letter-spacing: var(--letter-spacing-decreased);
+}
+
+.mono{
+  font-family: monospace
+}
+
+.fw-100{
+  font-weight:  var(--font-weights-100);
+}
+.fw-300{
+  font-weight:  var(--font-weights-300);
+}
+.fw-400,
+.regular{
+  font-weight: Normal;
+}
+.fw-700,
+.bold{
+  font-weight: var(--font-weights-700);
+}
+.fw-900{
+  font-weight:  var(--font-weights-900);
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+ol.number-list,
+ul.number-list{
+  list-style: decimal;
+  margin: 1em 0 1em 2em;
+  li{
+    padding: var(--spacing-xxxs) 0;
+  }
+}
+
+.vertical-align-top {
+  vertical-align: top;
+}
+
+.vertical-align-middle {
+  vertical-align: middle;
+}
+
+.vertical-align-bottom {
+  vertical-align: bottom;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+a{
+  color: var(--color-base-brand-primary);
+  transition: color 200ms ease-in-out;
+}
+
+.hover-text-primary:hover {
+  color: var(--color-base-brand-primary);
+}
+
+.hover-bg-primary:hover {
+  background-color: var(--color-base-brand-primary);
+}
+
+.line-height-1{
+  line-height: 1;
+}
+.line-height-2{
+  line-height: 2;
+}
+.line-height-3{
+  line-height: 3;
+}
+
+.label{
+  font-size: var(--font-sizes-small);
+  text-transform: uppercase;
+  font-weight: var(--font-weights-900);
+}
+
+.single-line-ellipsis{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.word-break-break-all {
+  word-break: break-all;
+}
+
+.max-2-lines {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capitalize-first-letter::first-letter {
+  text-transform: uppercase !important;
+}
+
+.max-2-lines {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.max-1-line {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.word-break-break-all {
+  word-break: break-all;
+}
